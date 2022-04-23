@@ -9,8 +9,8 @@ cd ..
 ctrl + L                                                         /Limpa a tela
 
 configuracao inicial
-git config --global user.email "julianobhs@gmail.com"            /Primeira vez deve-se adicionar o e-mail igual ao que esta no Github
-git config --global user.name Julianobhs			 /Primeira vez deve-se adicionar um nome igual ao que esta no Github
+git config --global user.email "nome@email.com"            	 /Primeira vez deve-se adicionar o e-mail igual ao que esta no Github
+git config --global user.name Nickname_desejado			 /Primeira vez deve-se adicionar um nome igual ao que esta no Github
 git config --global --unset user.email				 /Se ocorrer problema pode-se apagar utilizando o comando unset
 git config --global --unset user.name				 /Se ocorrer problema pode-se apagar utilizando o comando unset
 
