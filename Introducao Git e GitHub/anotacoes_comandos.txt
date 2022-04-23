@@ -1,0 +1,24 @@
+git init
+ls -a para mostrar arquivos ocultos
+mv arquivo ./destino
+
+configuracao inicial
+git config --global user.email "julianobhs@gmail.com"
+git config --global user.name Julianobhs
+
+Sobre o commit:
+git add * vai para a area de stage
+git commit -m "commit inicial"
+git add strogonoff.md endereco/
+
+git config --list
+git config --global --unset user.email
+
+
+git remote -v
+git push origin master
+git pull origin master
+
+git clone endereco do github
+
+git status
