@@ -1,24 +1,33 @@
-git init
-ls -a para mostrar arquivos ocultos
-mv arquivo ./destino
+Curso introdutorio ao Git/GitHub
+
+Anotações importantes
+
+ls -a 								 /Para mostrar arquivos ocultos
+mv arquivo ./destino						 /Mover arquivo
+mkdir
+cd ..
+ctrl + L                                                         /Limpa a tela
 
 configuracao inicial
-git config --global user.email "julianobhs@gmail.com"
-git config --global user.name Julianobhs
+git config --global user.email "julianobhs@gmail.com"            /Primeira vez deve-se adicionar o e-mail igual ao que esta no Github
+git config --global user.name Julianobhs			 /Primeira vez deve-se adicionar um nome igual ao que esta no Github
+git config --global --unset user.email				 /Se ocorrer problema pode-se apagar utilizando o comando unset
+git config --global --unset user.name				 /Se ocorrer problema pode-se apagar utilizando o comando unset
 
-Sobre o commit:
-git add * vai para a area de stage
-git commit -m "commit inicial"
-git add strogonoff.md endereco/
+git init         						 /inicia um repertorio
+git status       						 /mostra o status
 
-git config --list
-git config --global --unset user.email
+git add * ou . ou o nome do arquivo        			 /Envia o arquivo para a area de "stage"
+git commit -m "commit inicial"             			 /Inclui o commit para poder enviar para o servidor
+git add nome_do_arquivo endereco/				 /Adiciona o arquivo para um endereço
+
+git config --list			  			 /Lista de configuraçoes do git
+
 
 
 git remote -v
-git push origin master
-git pull origin master
+git push origin master						 /Envia para o servidor
+git pull origin master						 /Puxa do servidor
 
-git clone endereco do github
+git clone endereco_do_github					 /Clona do servidor atraves do site http
 
-git status
